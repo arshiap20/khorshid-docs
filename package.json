@@ -1,0 +1,21 @@
+{
+  "name": "khorshid-docs",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Docs site for the Khorshid date picker. Uses the published khorshid packages from npm.",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "@khorshid-js/core": "^0.1.0",
+    "@khorshid-js/dom": "^0.1.0",
+    "@khorshid-js/element": "^0.1.0"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.39"
+  }
+}
